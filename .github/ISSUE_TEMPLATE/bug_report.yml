@@ -1,0 +1,33 @@
+name: Ошибка / Bug report
+description: Проблема с материалом, UV, возвратом или установкой
+labels: [bug]
+body:
+  - type: input
+    id: blender
+    attributes:
+      label: Версия Blender и аддона
+      placeholder: Blender 4.5 LTS, Parallax_CubeMap 2.0.0
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Операционная система
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      description: Укажите Object/Edit Mode, выбранные грани и порядок нажатия кнопок.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемый и фактический результат
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Скриншот или минимальный пример
+      description: Прикладывайте только файлы, которые можно свободно передавать, без личных и платных ресурсов.

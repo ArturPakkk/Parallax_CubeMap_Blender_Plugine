@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Parallax_CubeMap</title>
+  <desc id="desc">A Blender addon for UV mapped window interiors, debug views and original material restoration.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101923"/><stop offset="1" stop-color="#1c2d39"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#91b7a4"/><stop offset="1" stop-color="#68b6dc"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#87b6a4" stop-opacity=".13"/><stop offset="1" stop-color="#68b6dc" stop-opacity=".03"/></linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="16" fill="url(#bg)"/>
+  <g fill="none" stroke="#6d95a5" stroke-opacity=".13">
+    <path d="M755 20H1180M755 60H1180M755 100H1180M755 140H1180M755 180H1180M755 220H1180M755 260H1180"/>
+    <path d="M780 20V260M820 20V260M860 20V260M900 20V260M940 20V260M980 20V260M1020 20V260M1060 20V260M1100 20V260M1140 20V260M1180 20V260"/>
+  </g>
+  <g fill="none" stroke-linejoin="round">
+    <path d="M839 57H1090V228H839Z" fill="url(#glass)" stroke="url(#line)" stroke-width="3"/>
+    <path d="M839 57 902 99H1034L1090 57M839 228 902 187H1034L1090 228M902 99V187M1034 99V187" stroke="#739dab" stroke-width="2"/>
+    <path d="M902 99H1034V187H902Z" stroke="#91b7a4" stroke-width="2"/>
+    <path d="M943 174V157H995V174M948 174V187M990 174V187" stroke="#91b7a4" stroke-width="2.5"/>
+    <path d="M916 123H935V145H916ZM1002 112V143M996 112H1008" stroke="#68b6dc" stroke-width="2"/>
+    <path d="M786 143H828M816 135 828 143 816 151" stroke="#e6a16b" stroke-width="2.5"/>
+  </g>
+  <text x="64" y="85" fill="#91b7a4" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="4">WINDOW INTERIOR TOOLKIT</text>
+  <text x="60" y="150" fill="#f1f4f5" font-family="Segoe UI,Arial,sans-serif" font-size="55" font-weight="600">Parallax_CubeMap</text>
+  <text x="64" y="194" fill="#a8b6c0" font-family="Segoe UI,Arial,sans-serif" font-size="21">Blender · UV interiors · Debug · Restore</text>
+  <path d="M64 227H144" stroke="url(#line)" stroke-width="3"/>
+  <text x="841" y="253" fill="#7d96a3" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">ONE FACE. A ROOM BEHIND IT.</text>
+</svg>

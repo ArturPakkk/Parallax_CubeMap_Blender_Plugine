@@ -1,0 +1,11 @@
+schema_version = "1.0.0"
+id = "parallax_cubemap"
+version = "2.0.0"
+name = "Parallax_CubeMap"
+tagline = "UV parallax interiors with a debug texture and material restore"
+maintainer = "ArturPakkk"
+type = "add-on"
+tags = ["Material", "3D View"]
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
+website = "https://github.com/ArturPakkk/Parallax_CubeMap_Blender_Plugine"

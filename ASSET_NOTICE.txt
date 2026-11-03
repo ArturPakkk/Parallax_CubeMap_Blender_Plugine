@@ -1,0 +1,10 @@
+Parallax_CubeMap assets
+License: GPL-3.0-or-later (see LICENSE).
+
+T_Parallax_02.exr: original room generated for this project from Blender primitives
+and procedural materials by tools/create_room.py. No external images, models or HDRIs.
+Parallax_Debug.exr: original debug atlas by ArturPakkk, confirmed by the author.
+docs/assets: original SVG banner and renders of the project-authored scene.
+
+The former third-party PX_OFF_Cabinet_02_Day.EXR is not included in this release.
+Its unknown license is not treated as a grant under the code license.
