@@ -4,8 +4,17 @@
 
 Комната с параллаксом для окон по готовой UV-развёртке.
 
-[**Скачать ZIP**](https://github.com/ArturPakkk/Parallax_CubeMap_Blender_Plugine/releases/latest) · [Установка](README_RU.md) · [English](README_EN.md)
+[**Скачать ZIP**](https://github.com/ArturPakkk/Parallax_CubeMap_Blender_Plugine/releases/latest) · [English](README_EN.md)
 
-**N → Parallax:** Назначить материал · Debug-текстура · Вернуть материалы
+## Как пользоваться
 
-[Лицензия](docs/LICENSING.md) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
+1. Установите ZIP через **Edit → Preferences → Add-ons → Install from Disk**.
+2. Выберите окно с UV в пределах **0–1** и откройте **N → Parallax**.
+
+| Кнопка | Действие |
+| --- | --- |
+| **Назначить материал** | Показать комнату на выбранном окне |
+| **Debug-текстура** | Включить или выключить проверочную текстуру |
+| **Вернуть материалы** | Вернуть прежние материалы и убрать свободный Debug-слот |
+
+В Edit Mode обрабатываются выделенные грани; после нажатия кнопки **Tab** возвращает к редактированию.
