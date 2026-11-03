@@ -1,0 +1,71 @@
+{
+  "version": "2.0.0",
+  "date": "2026-11-03",
+  "all_passed": true,
+  "source_commit": "22397440ba9bb14feb982ab70d7768b2f905e85a",
+  "repository": "https://github.com/ArturPakkk/Parallax_CubeMap_Blender_Plugine",
+  "release": "https://github.com/ArturPakkk/Parallax_CubeMap_Blender_Plugine/releases/tag/v2.0.0",
+  "published_zip_sha256": "2d73fe9b4391f9e9566fb8158609bf9c33260c031c37c64f8bc9bf8546e5c053",
+  "windows": {
+    "blender": "4.5.15 LTS",
+    "unit_tests": 5,
+    "suites": {
+      "restore": {
+        "checks": 36,
+        "success": true
+      },
+      "conflicts": {
+        "checks": 21,
+        "success": true
+      },
+      "render": {
+        "checks": 31,
+        "success": true
+      },
+      "undo_ui": {
+        "checks": 36,
+        "success": true
+      },
+      "languages": {
+        "checks": 12,
+        "success": true
+      },
+      "regressions": {
+        "checks": 9,
+        "success": true
+      },
+      "installation": {
+        "checks": null,
+        "success": true
+      }
+    },
+    "published_zip_install": true,
+    "legacy_131_backup_migration": true
+  },
+  "linux": {
+    "official_builds": [
+      "4.5.15",
+      "5.0.1"
+    ],
+    "all_passed": true,
+    "workflow_run": "https://github.com/ArturPakkk/Parallax_CubeMap_Blender_Plugine/actions/runs/41655017274"
+  },
+  "assets": {
+    "T_Parallax_02.exr": {
+      "origin": "tools/create_room.py; original geometry and procedural materials",
+      "sha256": "e5765a2e3f15b9d8590518aba6b8033b19a5fb9879532334884338d24bcd01db"
+    },
+    "Parallax_Debug.exr": {
+      "origin": "ArturPakkk; author confirmed ownership",
+      "sha256": "5ff33f1ce47ad650462d0b31ee129c789c590a9fd91db574698895fe7ca44c5c"
+    }
+  },
+  "licensing": "GPL-3.0-or-later for code and project-owned resources",
+  "history_cleanup": "Explicitly authorized by the owner; unknown-origin room excluded from main history",
+  "limitations": [
+    "No user working scene was modified or manually tested",
+    "No deletion of detached GitHub objects or caches is claimed",
+    "Remeshing or deleting backup attributes can lose material provenance"
+  ]
+}
+
